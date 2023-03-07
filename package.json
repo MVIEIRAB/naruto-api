@@ -1,0 +1,33 @@
+{
+  "name": "naruto-api",
+  "version": "1.0.0",
+  "description": "Desenvolvimento para testar conhecimentos técnicos. Trata-se de uma aplicação que gerencia Personagens/Clãns do Animê Naruto.",
+  "main": "dist/main/server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVIEIRAB/naruto-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVIEIRAB/naruto-api/issues"
+  },
+  "homepage": "https://github.com/MVIEIRAB/naruto-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/typescript": "^2.0.0",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.5"
+  }
+}
